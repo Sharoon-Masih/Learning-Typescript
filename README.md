@@ -71,3 +71,14 @@ https://visualstudiomagazine.com/articles/2023/02/02/jetbrains-survey.aspx
    - Create your GitHub account by visiting [GitHub](https://github.com/).
 
 ### Note: Do all steps in seqeunce.
+
+Question arises in my mind i.e:
+when we use any method which is not built-in in TS so why does it not give error?
+
+In TypeScript (TS), when you use a method that is not built-in or defined in the type definitions (like those provided by TypeScript's standard library or third-party libraries with TypeScript support), TypeScript will not necessarily give you an error immediately. There are a few reasons why this might happen:
+
+Type Inference and Structural Typing:
+TypeScript uses type inference to determine the types of variables and expressions based on their usage. If TypeScript can infer a compatible type for an expression, it will not raise an error even if the method used is not explicitly defined.
+
+Structural Typing:
+TypeScript uses structural typing, which means it focuses on the shape (structure) of types rather than the explicit type declarations. If an object or value matches the expected structure (properties and methods) used in your code, TypeScript will allow it, even if the method is not explicitly defined in the type.
