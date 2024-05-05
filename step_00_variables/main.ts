@@ -92,6 +92,8 @@ console.log(Check3) //error, not accessible.
 // 4-Variables declared with var are hoisted to the top of their scope during compilation. This means that even if you reference a variable before its declaration, JavaScript/TypeScript will not throw an error (but the value will be undefined). look at the example below:
 console.log(test3);//no error but at runtime it prints undefined.
 
+//check this for understanding hoisting: https://dev.to/lydiahallie/javascript-visualized-hoisting-478h
+
 var test3: string = "Hello World";
 
 console.log(test3); //it prints Hello World
@@ -148,6 +150,8 @@ a = a-b; //10  //now as we know that a=15 and b=5 which means "b" has the initia
 
 console.log("a:", a); // Expected Output: 10
 console.log("b:", b); // Expected Output: 5
+
+//discuss case sensitivity in variable also. 
 
 
 

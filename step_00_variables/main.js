@@ -104,3 +104,4 @@ b = a - b; //5 //subtract value of "b" from "a"
 a = a - b; //10  //now as we know that a=15 and b=5 which means "b" has the initial value of "a", therefore we subtract "b" from "a" 
 console.log("a:", a); // Expected Output: 10
 console.log("b:", b); // Expected Output: 5
+//discuss case sensitivity in variable also. 
